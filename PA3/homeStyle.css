@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    background-color: black;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+h4.judul1{
+    color:white;
+    flex-grow: 1;
+}
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    width: 30%;
+    justify-content: space-around;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0px 20px 0px 50px;
+}
+
+li{
+    text-align: right;
+    float: right;
+}
+
+a:hover{
+    color: lightskyblue;
+}
+.judul1{
+  margin-right:900px;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.btn {
+  color: lightskyblue;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  margin-left:30px;
+}
+
+.btn:hover {
+  filter: brightness(150%);
+  color: lightskyblue
+}
+
+section{
+    background-image: url('chipsetGambar.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+}
+section::after{
+    content:" ";
+    display: block;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:39.6%;
+    left:0;
+    background-color: rgba(30, 30, 30,0.7);
+}
+section a{  
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+section p{
+    color: white;
+    font-size: 15pt;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+section h1{
+    font-size: 28pt;
+}
+
+h1{
+    color: lightskyblue;
+}
+section.judulWeb{
+    text-align: center;
+    padding-left:15%;
+}
+
+.desc1{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.desc1_text{
+    flex: 35%;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 70px;
+    padding: 30px 20px;
+    z-index: 1;
+}
+.desc2_text{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    padding-top:100px;
+    z-index: 1;
+}
+.banner{
+    content:" ";
+    display: block;
+    position: absolute;
+    margin-top: 100px ;
+    top:50%;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(30, 30, 30,0.7);
+}
+.gambar_brand{
+    margin-top: 100px;
+    padding-left: 30%;
+}
+.nvidia_gambar{
+    
+    padding-left: 50px;
+    display: flex;
+}
+.radeon_gambar{
+    padding-left:100px;
+    display: flex;
+}
+footer{
+    background-color: lightskyblue;
+    text-align: center;
+}

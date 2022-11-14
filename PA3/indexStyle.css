@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+  }
+
+  nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    font-weight: bold;
+    color: white;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    width: 30%;
+    justify-content: space-around;
+    color: white;
+}
+.judul1{
+  margin-right:900px;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.btn {
+  color: lightskyblue;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  margin-left:30px;
+}
+
+.btn:hover {
+  filter: brightness(150%);
+  color: lightskyblue
+}
+
+/* dropdown*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin: 0px 20px 0px 50px;
+}
+
+.dropbtn{
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropbtn:hover{
+  color: #bc8cf2;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  margin: 0;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 1px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+/* background tulisan hover */
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* tulisan dropdown*/
+a:hover{
+  color: lightskyblue;
+}
+
+tr, th, td {
+  color: black;
+  padding: 20px;
+}
+
+table {
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(228, 227, 227);
+}
