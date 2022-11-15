@@ -10,7 +10,7 @@
 <body>
     
     <nav>
-        <<h4 class="judul1">GPU Addict.com</h4>
+        <<h4 class="judul1">SMD VGA Center</h4>
             <ul>
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="profil.php">ABOUT US</a></li>
@@ -43,5 +43,16 @@
 </body>
 <footer>
     <div class="foot1">
-        <h5>@Copyright by adkakdkad</h5>
+        <div class="row">
+            <div class="footer-col">
+                <h5>Contact Us</h5>
+                    <a href="">Kevin Adaba Fedriananda</a></li>
+            </div>
+                <div class="footer-col">
+                    <h5>Credit</h5>
+                        <a href="">Kevin Adaba Fedriananda</a></li>
+                </div>
+        </div>
+    </div>    
+</footer>
 </html>

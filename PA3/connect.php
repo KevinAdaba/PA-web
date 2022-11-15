@@ -2,7 +2,7 @@
     $server = "localhost";
     $user = "root";
     $password = "";
-    $db_name = "";
+    $db_name = "gpu1";
 
     $conn = mysqli_connect($server, $user, $password, $db_name);
 
